@@ -33,6 +33,7 @@ public class TestAddToCart extends BaseTest {
 		hp.getSecondProduct().click();
 		String parentHandle = driver.getWindowHandle();
 		Set<String> allhandles =driver.getWindowHandles();
+		
 
 		for(String wh : allhandles)
 		{
